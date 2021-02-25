@@ -1,5 +1,4 @@
 let r = 0
-let p = 3.14
 let total = 0
 let total2 = 0
 
@@ -12,8 +11,8 @@ function buttonon() {
 
  r = parseInt(r)
 
- total = 2 * p * r
- total2 = p * r^2
+ total = 2 * Math.PI * r
+ total2 = Math.PI * Math.pow(r, 2)
  
  alert(total)
  alert(total2)
